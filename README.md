@@ -88,7 +88,6 @@ In coming projects, i seek to improve on fonts. and responsive design
 
 - [https://www.codecademy.com/enrolled/courses/learn-css-variables-and-functions](https://www.example.com) - Lesson on variables
 
-
 ## Author
 
 - Website - [https://barcode77.github.io/mywebsite/](https://www.your-site.com)
