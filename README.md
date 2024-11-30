@@ -46,11 +46,11 @@ Users should be able to:
 
 # What I learned
 The blog preview challenge has taught me how to adapt my approach to coding.
-Taking time to see, and notice the structure, flow, first.
-To spend my time in the inspect box more than development area. as its where i get to quickly test.
-With this, I appreciated the work of community feedback, and how we write unorganized code that can be unreadable.
-So i added comments. and whitespace to improve readability. ANd also used a simple HTML structure!
-I also used feedback from previous projects,and used media queries!
+Taking time to see, and notice the structure & flow, first.
+To spend my time in the inspect box more than development area, as it's where i get to quickly test.
+With this, I appreciated the work of community mentors, and how we write unorganized code that can be unreadable.
+So i added comments and whitespace to improve readability and used a simple HTML structure!
+I also used feedback from previous projects,and used media queries to improve my project.
 
 
 
