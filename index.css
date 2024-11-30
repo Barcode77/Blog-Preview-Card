@@ -1,0 +1,130 @@
+:root{
+    --main-color: hsl(47, 88%, 63%);
+    --second-color: hsl(0, 0%, 100%);
+    --text-color500: hsl(0, 0%, 42%);
+    --text-color950: hsl(0, 0%, 7%);
+    --font-weight500: 500;
+    --font-weight800: 800;
+    font-size: 62.5%;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+
+}
+
+/*--------------------------------------------- HTMl - SECTION-------------------------------*/
+html{
+    min-height: 100vh;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*-- -------------------------------------------BODY - SECTION- ----------------------------*/
+body{
+    background-color: var(--second-color);
+    padding: 20px;
+    box-shadow: 10px 10px black;
+    border-radius: 15px;
+    width: 350px;
+    font-family: "Figtree";
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: var(--font-weight500);
+}
+
+/*--------------------------------------------- HEADER - SECTION- -------------------------*/
+header img {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.learning {
+    background-color: var(--main-color);
+    text-align: center;
+    font-weight: var(--font-weight800);
+    padding: 5px 5px 5px 5px;
+    width: 70px;
+    border-radius: 3px;
+}
+.published {
+    margin: 15px 0;
+    font-size: 1.3rem;
+}
+
+/*------------------------------------------------MAIN - SECTION- ------------------------*/
+h2 {
+    font-weight: var(--font-weight800);
+    margin: 15px 0;
+    font-size: 2.2rem;
+    color: var(--text-color950);
+}
+h2:hover {
+    color: var(--main-color);
+}
+main p {
+    color: var(--text-color500);
+    font-size: 1.5rem;
+}
+
+
+/*--------------------------------------------- FOOTER - SECTION- -------------------------*/
+footer {
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+footer img{
+    border-radius:50% ;
+    height:30px;
+    width:30px;
+}
+footer p {
+    font-size: 1.3rem;
+    font-weight: var(--font-weight800);
+    margin: 10px;
+}
+
+/*--------------------------------------------- MEDIA QUERY - SECTION- -------------------------*/
+@media (max-width: 375px) {
+    body{
+        width:330px;
+    }
+
+    h2{
+        font-size: 2.0rem;
+    }
+
+    /*-------- P elements -----*/
+    main p {
+        font-size: 1.4rem;
+    }
+    .learning{
+        font-size: 1.1rem;
+    }
+    .published {
+        font-size: 1.2rem;
+    }
+    footer p{
+        font-size: 1.3rem;
+    }
+
+
+}
