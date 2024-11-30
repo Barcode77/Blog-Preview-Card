@@ -23,6 +23,7 @@
 /*--------------------------------------------- HTMl - SECTION-------------------------------*/
 html{
     min-height: 100vh;
+    min-width: 375px;
     background-color: var(--main-color);
     display: flex;
     flex-direction: column;
@@ -101,6 +102,7 @@ footer p {
     font-weight: var(--font-weight800);
     margin: 10px;
 }
+
 
 /*--------------------------------------------- MEDIA QUERY - SECTION- -------------------------*/
 @media (max-width: 375px) {
